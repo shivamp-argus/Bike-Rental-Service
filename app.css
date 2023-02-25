@@ -1,0 +1,176 @@
+/* fonts */
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Roboto', sans-serif; */
+html{
+    height: 100%;
+}
+body{
+    background-color: #FC5E55;
+    background: linear-gradient( #FC5E55,#FA4083 );
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.container{
+width: 1024px;
+min-height: 300px;
+/* background-color: rgb(17, 240, 17); */
+margin: 0px auto;
+}
+header{
+    /* background-color: rgb(20, 54, 20); */
+    min-height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin: 0px 10px;
+    border: 1px white solid;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+
+}
+main{
+    /* background-color: rgb(63, 131, 63); */
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+#mainBox1{
+    /* background-color: lightblue; */
+    /* width: 70%; */
+    flex:2;
+    padding-right: 50px;
+}
+#mainBox2{
+    /* background-color: antiquewhite; */
+    /* width: 30%; */
+    flex: 1;    
+    align-self: center;
+}
+#mainBox1 h1{
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1.5rem;
+}
+#mainBox1 p{
+    line-height: 1.5rem;
+    margin-right:1rem;
+    margin-top:1rem;
+    padding-right: 2.5rem;
+}
+#mainBox1 button{
+    font-family: 'Playfair Display', serif;
+    border: solid 1px black ;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 0.2rem 0.5rem;
+    color: #FA4083;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.228) ;
+    
+}
+.cards{
+    /* background-color: rgb(122, 184, 122); */
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 30%;
+    min-height: 250px;
+    text-align: center; 
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.228  );
+    /* background-color: red; */
+}
+#first{
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    /* background-color: pink; */
+    
+}
+#second{
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    /* background-color: red; */
+    
+}
+#third{
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    
+    /* background-color: blue; */
+}
+#first a{
+    text-decoration: none;
+    color: white;
+}
+#second a{
+    text-decoration: none;
+    color: white;
+}
+#third a{
+    text-decoration: none;
+    color: white;
+}
+#first img{
+    margin-top: 0.5rem;
+}
+#second img{
+    margin-top: 0.5rem;
+}
+#third img{
+    margin-top: 0.5rem;
+}
+#first h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+}
+#second h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+    
+}
+#third h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+}
+ .reviews{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+ }
+ .review{
+    width: 45%;
+    min-height: 50px;
+    border: 1px solid white;
+    padding: 5rem;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 50px;
+ }
