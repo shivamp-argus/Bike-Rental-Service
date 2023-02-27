@@ -35,26 +35,89 @@
               </div>
             </div>
           </div>
-          <div class="navbutton"><a href="contact-us.html">Contact Us</a></div>
+          <div class="navbutton"><a href="#">About Us</a></div>
           <div class="navbutton"><a href="#">Order</a></div>
         </nav>
       </header>
 
       <main>
-        <div id="mainBox1">
-          <h1>Lorem, ipsum dolor.</h1>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
-            recusandae neque enim perferendis voluptas quisquam quibusdam quam
-            ab qui. A.
-          </p>
-          <button>Book Online</button>
-        </div>
-        <div id="mainBox2">
-          <img
-            src="images/image-bike-repair-service.jpg"
-            alt="bike-repair-service"
-          />
+        <div class="container">
+          <div class="title">
+            <h1>Contact Us</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              dolore repudiandae voluptatem odio soluta. Deserunt eveniet quas
+              in obcaecati dolores?
+            </p>
+          </div>
+          <div class="contact-form">
+            <form action="#">
+              <div class="inputWrapper">
+                <label for="name" class="newline">First Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Type your name here"
+                />
+              </div>
+              <div class="inputWrapper">
+                <label for="email" class="newline">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <div class="inputWrapper">
+                <textarea
+                  name="feedback"
+                  id="feedback"
+                  cols="50"
+                  rows="4"
+                  placeholder="Give your feedback here"
+                ></textarea>
+              </div>
+              <div class="inputWrapper">
+                <input type="checkbox" name="newsletter" id="newsletter" />
+                <label for="newsletter">Sign up for newsletter</label>
+              </div>
+              <div class="inputWrapper">
+                <p>How would you liked to be contacted?</p>
+                <input
+                  type="radio"
+                  name="contact-detail"
+                  id="newsletterEmail"
+                />
+                <label for="newsletterEmail">Email</label>
+                <input
+                  type="radio"
+                  name="contact-detail"
+                  id="newsletterPhone"
+                />
+                <label for="newsletterPhone">Phone</label>
+              </div>
+              <div class="inputWrapper">
+                <select name="country" id="country-dropdown">
+                  <option value="Not-chosen" selected>
+                    Choose your country
+                  </option>
+                  <option value="India">India</option>
+                  <option value="Nepal">Nepal</option>
+                  <option value="USA">USA</option>
+                </select>
+              </div>
+              <div class="inputWrapper">
+                <input
+                  type="submit"
+                  name="submit"
+                  id="submit"
+                  class="navbutton"
+                />
+              </div>
+            </form>
+          </div>
         </div>
       </main>
       <div class="cards">
